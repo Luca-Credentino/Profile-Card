@@ -1,0 +1,147 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+:root {
+    --black-color: #1A1A1D;
+    --gray-color: #4E4E50;
+    --primary-color-red: #6F2232;
+    --secondary-color-red: #950740;
+    --final-color-red: #C3073F;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--black-color);
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+.card-container{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    background-color: var(--gray-color);
+    width: 400px;
+    height: 600px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 10px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px 4px 5px;
+}
+
+.heart { padding-right: 12px;} 
+
+.nav-car ol{
+    list-style: none;
+    display: flex;
+    margin-left: 89%;
+    margin-bottom: 16px;
+}
+
+.nav-car ol li a { color: #fff; }
+
+
+.description-div{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.description-div .img-me{
+    width: 46%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.description-div h1{
+    color: #fff;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.description-div h2{
+    font-size: 17px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color-red);
+    font-weight: 600;
+}
+.description-div p{
+    margin: 0 2rem;
+    color: #fff;
+
+}
+
+.btn-hireMe{
+    margin: 1rem;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 16px;
+    color: #fff;
+    height: 42px;
+    width: 140px;
+    background: linear-gradient(#6F2232, #950740);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 500ms;
+}
+.btn-hireMe:hover{
+    transform: translateY(4px);
+    width: 148px;
+    height: 46px;
+}
+
+hr{ width: 90%; margin: 12px auto; border-radius: 16px; border: 1px solid #ccc;}
+
+.skills-div h1{
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+}
+
+.skills-div{
+    text-align: center;
+}
+.skills-div ol{
+    margin-top: 16px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stars{
+    margin-top: 10px;
+    color: #FFD371;
+    display: flex;
+}
+.stars .friststar{
+    margin-left: 1.8rem;
+}
+.stars .laststar{
+    margin-right: 1rem;
+}
+
+
+.shape1{
+    position: relative;
+    right: 38px;
+    bottom: 40px;
+    height: 176px ;
+    width: 376px;
+    border-radius: 30% 70% 100% 0% / 30% 9% 91% 70%   ;
+    background: linear-gradient(var(--primary-color-red), var(--final-color-red));
+}
+
+.shape2{
+    position: relative;
+    bottom: 10rem;
+    transform: rotate(90deg);
+    height: 476px ;
+    margin-left: 80%;
+    width: 476px;
+    border-radius: 23% 77% 0% 100% / 35% 100% 0% 65%    ;
+    background: linear-gradient(var(--final-color-red), var(--final-color-red));
+}
+
+.red { 
+    color: var(--final-color-red);
+}
